@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		ABBEE5C72A62173700421168 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5C62A62173700421168 /* AppDelegate.swift */; };
 		ABBEE5C92A62173700421168 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5C82A62173700421168 /* SceneDelegate.swift */; };
-		ABBEE5CB2A62173700421168 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5CA2A62173700421168 /* ViewController.swift */; };
-		ABBEE5CE2A62173700421168 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5CC2A62173700421168 /* Main.storyboard */; };
 		ABBEE5D02A62173800421168 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5CF2A62173800421168 /* Assets.xcassets */; };
-		ABBEE5D32A62173800421168 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ABBEE5D12A62173800421168 /* LaunchScreen.storyboard */; };
+		ABBEE5DB2A62199C00421168 /* RecipesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5DA2A62199C00421168 /* RecipesView.swift */; };
+		ABBEE5DD2A685A5400421168 /* RecipesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5DC2A685A5400421168 /* RecipesTableViewCell.swift */; };
+		ABBEE5E02A68664000421168 /* ConfigureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5DF2A68664000421168 /* ConfigureView.swift */; };
+		ABBEE5E22A68687600421168 /* RecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5E12A68687600421168 /* RecipesViewController.swift */; };
+		ABBEE5E62A6B427700421168 /* RecipeTutorialsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5E52A6B427700421168 /* RecipeTutorialsView.swift */; };
+		ABBEE5E82A6B42B900421168 /* RecipeTutorialsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5E72A6B42B900421168 /* RecipeTutorialsViewController.swift */; };
+		ABBEE5EC2A6E165B00421168 /* RecipeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5EB2A6E165B00421168 /* RecipeModel.swift */; };
+		ABBEE5EF2A6EEFA000421168 /* RegisterRecipeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABBEE5EE2A6EEFA000421168 /* RegisterRecipeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ABBEE5C32A62173700421168 /* RecipeCorner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RecipeCorner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ABBEE5C62A62173700421168 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ABBEE5C82A62173700421168 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ABBEE5CA2A62173700421168 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ABBEE5CD2A62173700421168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ABBEE5CF2A62173800421168 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		ABBEE5D22A62173800421168 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ABBEE5D42A62173800421168 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ABBEE5DA2A62199C00421168 /* RecipesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesView.swift; sourceTree = "<group>"; };
+		ABBEE5DC2A685A5400421168 /* RecipesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesTableViewCell.swift; sourceTree = "<group>"; };
+		ABBEE5DF2A68664000421168 /* ConfigureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigureView.swift; sourceTree = "<group>"; };
+		ABBEE5E12A68687600421168 /* RecipesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipesViewController.swift; sourceTree = "<group>"; };
+		ABBEE5E52A6B427700421168 /* RecipeTutorialsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTutorialsView.swift; sourceTree = "<group>"; };
+		ABBEE5E72A6B42B900421168 /* RecipeTutorialsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeTutorialsViewController.swift; sourceTree = "<group>"; };
+		ABBEE5EB2A6E165B00421168 /* RecipeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipeModel.swift; sourceTree = "<group>"; };
+		ABBEE5EE2A6EEFA000421168 /* RegisterRecipeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterRecipeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +66,52 @@
 		ABBEE5C52A62173700421168 /* RecipeCorner */ = {
 			isa = PBXGroup;
 			children = (
+				ABBEE5ED2A6EED3E00421168 /* RegisterRecipe */,
+				ABBEE5E42A6B409100421168 /* RecipeTutorials */,
+				ABBEE5E32A6B406600421168 /* Recipes */,
+				ABBEE5DE2A6865ED00421168 /* Protocols */,
 				ABBEE5C62A62173700421168 /* AppDelegate.swift */,
 				ABBEE5C82A62173700421168 /* SceneDelegate.swift */,
-				ABBEE5CA2A62173700421168 /* ViewController.swift */,
-				ABBEE5CC2A62173700421168 /* Main.storyboard */,
 				ABBEE5CF2A62173800421168 /* Assets.xcassets */,
-				ABBEE5D12A62173800421168 /* LaunchScreen.storyboard */,
 				ABBEE5D42A62173800421168 /* Info.plist */,
 			);
 			path = RecipeCorner;
+			sourceTree = "<group>";
+		};
+		ABBEE5DE2A6865ED00421168 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5DF2A68664000421168 /* ConfigureView.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		ABBEE5E32A6B406600421168 /* Recipes */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5EB2A6E165B00421168 /* RecipeModel.swift */,
+				ABBEE5DA2A62199C00421168 /* RecipesView.swift */,
+				ABBEE5DC2A685A5400421168 /* RecipesTableViewCell.swift */,
+				ABBEE5E12A68687600421168 /* RecipesViewController.swift */,
+			);
+			path = Recipes;
+			sourceTree = "<group>";
+		};
+		ABBEE5E42A6B409100421168 /* RecipeTutorials */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5E52A6B427700421168 /* RecipeTutorialsView.swift */,
+				ABBEE5E72A6B42B900421168 /* RecipeTutorialsViewController.swift */,
+			);
+			path = RecipeTutorials;
+			sourceTree = "<group>";
+		};
+		ABBEE5ED2A6EED3E00421168 /* RegisterRecipe */ = {
+			isa = PBXGroup;
+			children = (
+				ABBEE5EE2A6EEFA000421168 /* RegisterRecipeView.swift */,
+			);
+			path = RegisterRecipe;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,9 +172,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABBEE5D32A62173800421168 /* LaunchScreen.storyboard in Resources */,
 				ABBEE5D02A62173800421168 /* Assets.xcassets in Resources */,
-				ABBEE5CE2A62173700421168 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,32 +183,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ABBEE5CB2A62173700421168 /* ViewController.swift in Sources */,
+				ABBEE5E02A68664000421168 /* ConfigureView.swift in Sources */,
+				ABBEE5E62A6B427700421168 /* RecipeTutorialsView.swift in Sources */,
 				ABBEE5C72A62173700421168 /* AppDelegate.swift in Sources */,
+				ABBEE5EF2A6EEFA000421168 /* RegisterRecipeView.swift in Sources */,
+				ABBEE5E22A68687600421168 /* RecipesViewController.swift in Sources */,
+				ABBEE5E82A6B42B900421168 /* RecipeTutorialsViewController.swift in Sources */,
+				ABBEE5DB2A62199C00421168 /* RecipesView.swift in Sources */,
+				ABBEE5EC2A6E165B00421168 /* RecipeModel.swift in Sources */,
+				ABBEE5DD2A685A5400421168 /* RecipesTableViewCell.swift in Sources */,
 				ABBEE5C92A62173700421168 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		ABBEE5CC2A62173700421168 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABBEE5CD2A62173700421168 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		ABBEE5D12A62173800421168 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ABBEE5D22A62173800421168 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		ABBEE5D52A62173800421168 /* Debug */ = {
@@ -292,7 +325,6 @@
 				INFOPLIST_FILE = RecipeCorner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +352,6 @@
 				INFOPLIST_FILE = RecipeCorner/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
